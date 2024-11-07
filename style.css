@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #E82C5E;
+    background: linear-gradient(120deg, #FFC1CC, #9370DB);
     color: white;
 }
 
@@ -57,4 +57,17 @@ label {
 .counter{
     font-size: 20px;
 }
+
+button {
+    background: linear-gradient(120deg, #FFC1CC, #9370DB);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
 
